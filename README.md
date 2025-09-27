@@ -86,15 +86,15 @@ src/
 ## 🖼️ Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/Home.png)
+![Home Screen](./screenshots/Home.png)
 *Welcome screen with topic selection and app introduction*
 
 ### Quiz Interface
-![Quiz Interface](screenshots/Quizz.png)
+![Quiz Interface](./screenshots/Quizz.png)
 *Interactive quiz interface with questions and answer options*
 
 ### Results Page
-![Results Page](screenshots/score.png)
+![Results Page](./screenshots/score.png)
 *Detailed results showing your score and performance*
 
 ## 🚧 Known Issues & Future Improvements
@@ -246,15 +246,15 @@ Return only the feedback message with no additional formatting.
 ## 🖼️ Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/Home.png)
+![Home Screen](./screenshots/Home.png)
 *Welcome screen with topic selection and app introduction*
 
 ### Quiz Interface
-![Quiz Interface](screenshots/Quizz.png)
+![Quiz Interface](./screenshots/Quizz.png)
 *Interactive quiz interface with questions and answer options*
 
 ### Results Page
-![Results Page](screenshots/score.png)
+![Results Page](./screenshots/score.png)
 *Detailed results showing your score and performance*
 
 ## 🚀 Features in Action
