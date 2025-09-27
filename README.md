@@ -85,21 +85,17 @@ src/
 
 ## 🖼️ Screenshots
 
+### Home Screen
+![Home Screen](screenshots/Home.png)
+*Welcome screen with topic selection and app introduction*
+
 ### Quiz Interface
-![Quiz Interface](screenshots/quiz-interface.png)
-*Clean, modern interface with progress tracking and question navigation*
-
-### Question Navigation
-![Question Navigation](screenshots/question-navigation.png)
-*Intuitive navigation between questions with Next/Previous buttons*
-
-### Progress Tracking
-![Progress Tracking](screenshots/progress-bar.png)
-*Visual progress indicator showing completion status*
+![Quiz Interface](screenshots/quizz.png)
+*Interactive quiz interface with questions and answer options*
 
 ### Results Page
-![Results Page](screenshots/results.png)
-*Detailed results with score breakdown and performance analysis*
+![Results Page](screenshots/score.png)
+*Detailed results showing your score and performance*
 
 ## 🚧 Known Issues & Future Improvements
 
@@ -249,21 +245,17 @@ Return only the feedback message with no additional formatting.
 
 ## 🖼️ Screenshots
 
+### Home Screen
+![Home Screen](screenshots/Home.png)
+*Welcome screen with topic selection and app introduction*
+
 ### Quiz Interface
-![Quiz Interface](screenshots/quiz-interface.png)
-*Clean, modern interface with progress tracking and question navigation*
-
-### Question Navigation
-![Question Navigation](screenshots/question-navigation.png)
-*Intuitive navigation between questions with Next/Previous buttons*
-
-### Progress Tracking
-![Progress Tracking](screenshots/progress-bar.png)
-*Visual progress indicator showing completion status*
+![Quiz Interface](screenshots/quizz.png)
+*Interactive quiz interface with questions and answer options*
 
 ### Results Page
-![Results Page](screenshots/results.png)
-*Detailed results with score breakdown and performance analysis*
+![Results Page](screenshots/score.png)
+*Detailed results showing your score and performance*
 
 ## 🚀 Features in Action
 
