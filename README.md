@@ -90,7 +90,7 @@ src/
 *Welcome screen with topic selection and app introduction*
 
 ### Quiz Interface
-![Quiz Interface](screenshots/quizz.png)
+![Quiz Interface](screenshots/Quizz.png)
 *Interactive quiz interface with questions and answer options*
 
 ### Results Page
@@ -250,7 +250,7 @@ Return only the feedback message with no additional formatting.
 *Welcome screen with topic selection and app introduction*
 
 ### Quiz Interface
-![Quiz Interface](screenshots/quizz.png)
+![Quiz Interface](screenshots/Quizz.png)
 *Interactive quiz interface with questions and answer options*
 
 ### Results Page
