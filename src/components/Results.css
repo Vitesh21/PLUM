@@ -1,0 +1,245 @@
+.results-container {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.results-content {
+  max-width: 800px;
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.results-content h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.results-content h2 {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.score-section {
+  margin-bottom: 3rem;
+}
+
+.score-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #4361ee 0deg,
+    #4361ee var(--percentage, 0deg),
+    #e9ecef var(--percentage, 0deg),
+    #e9ecef 360deg
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(67, 97, 238, 0.2);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.score-circle::before {
+  content: '';
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.score-number {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2d3748;
+  z-index: 1;
+  position: relative;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.score-percentage {
+  font-size: 1.1rem;
+  color: #4a5568;
+  font-weight: 600;
+  z-index: 1;
+  position: relative;
+  margin: 0.25rem 0 0;
+  background: #f8f9ff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  display: inline-block;
+  color: #4361ee;
+}
+
+.score-message {
+  margin-top: 1.5rem;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loading-feedback {
+  color: #666;
+  font-style: italic;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.ai-feedback {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.score-summary {
+  font-size: 1.3rem;
+  color: #4caf50;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.ai-insight {
+  color: #333;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  background: white;
+  border-radius: 6px;
+  border-left: 4px solid #667eea;
+}
+
+.detailed-results {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.detailed-results h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.question-result {
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border-left: 4px solid;
+}
+
+.question-result.correct {
+  background-color: #e8f5e8;
+  border-left-color: #4caf50;
+}
+
+.question-result.incorrect {
+  background-color: #ffebee;
+  border-left-color: #f44336;
+}
+
+.question-number {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.question-text {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.answer-result {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.your-answer {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.correct-answer {
+  display: block;
+  color: #4caf50;
+  font-weight: 500;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.restart-button, .home-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 150px;
+}
+
+.restart-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.restart-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.home-button {
+  background-color: #f5f5f5;
+  color: #666;
+  border: 1px solid #ddd;
+}
+
+.home-button:hover {
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .results-content {
+    padding: 2rem 1rem;
+  }
+
+  .results-content h1 {
+    font-size: 2rem;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .restart-button, .home-button {
+    width: 100%;
+  }
+}
